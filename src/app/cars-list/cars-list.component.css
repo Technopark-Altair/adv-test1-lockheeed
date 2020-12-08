@@ -1,0 +1,48 @@
+.main__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7vw;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2vh 0;
+}
+
+.assortment {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.model__card {
+  width: 33vw;
+  border: 1px solid black;
+  padding: 1vh 2vw;
+  margin: 3vh 5vw 3vh 0;
+
+  border-radius: 3px;
+
+  text-decoration: none;
+  color: black;
+
+  -webkit-box-shadow: 12px 12px 30px -8px rgba(0,0,0,0.48);
+  -moz-box-shadow: 12px 12px 30px -8px rgba(0,0,0,0.48);
+  box-shadow: 12px 12px 30px -8px rgba(0,0,0,0.48);
+}
+
+.brand {
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.model {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: 400;
+}

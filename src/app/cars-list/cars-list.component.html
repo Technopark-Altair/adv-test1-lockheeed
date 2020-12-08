@@ -1,0 +1,10 @@
+<div class="main__container">
+  <p class="title">Модельный ряд: </p>
+  <div class="assortment">
+    <a class="model__card" *ngFor="let car of cars" routerLink="car/{{car['id']}}">
+      <p class="brand">Бренд: {{car['brandName']}}</p>
+      <p class="model">Модель: {{car['modelName']}}</p>
+      <p class="price">Цена базовой комплектации: {{car['priceInRub']}}</p>
+    </a>
+  </div>
+</div>
